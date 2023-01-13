@@ -1,5 +1,5 @@
 # Chrome Extension Boilerplate with React 18 and TypeScript
-Chrome Extensions Boilerplate using Create React App / TypeScript / Eslint config Airbnb
+Chrome Extension Boilerplate using Create React App / TypeScript / Eslint config Airbnb
 
 ## Features
 - [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/)
