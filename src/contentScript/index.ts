@@ -6,7 +6,7 @@
 // This needs to be an export due to typescript i
 // mplementation limitation of needing '--isolatedModules' tsconfig
 export function printAllPageLinks(): boolean {
-  console.info("NEW CONSOLE LOG TS");
+  console.info("printAllPageLinks Typescript");
   const allLinks = Array.from(document.querySelectorAll("a")).map(
     (link) => link.href
   );

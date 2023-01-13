@@ -1,14 +1,13 @@
-import { FC } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import logo from "../logo.svg";
+import "./Popup.css";
 
-function App(): FC {
+function Popup(): JSX.Element {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reloadsss.
+          Edit <code>src/popup/Popup.tsx</code> and save to reloads.
         </p>
 
         <a
@@ -24,4 +23,4 @@ function App(): FC {
   );
 }
 
-export default App;
+export default Popup;
